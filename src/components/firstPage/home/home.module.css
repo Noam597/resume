@@ -1,0 +1,112 @@
+.home{
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    height: 100vh;
+    
+}
+.title{
+    color: white;
+    letter-spacing: 0.75rem;
+    
+    transition: all 0.45s;
+}
+.title p{
+    font-size: 2em;
+    text-shadow:0 0 5px white, 0 0 10px white;
+    animation: shine 3s ease-in ;
+}
+.home h1,h2{
+   padding: 2rem;
+}
+.home h2{
+    font-size: 2.5rem;
+   text-shadow: 0 5px 5px darkblue;
+   margin: 0;
+}
+.home h1{
+    margin: auto;
+    width: 8em;
+    font-size: 4rem;
+    position: relative;
+}
+.glow{
+    position: relative;
+    text-shadow:0 0 5px white, 0 0 10px white;
+    animation: shine 3s ease-in ;
+}
+.glow::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   transform:perspective(1em) rotateX(40deg) scale(1, 0.25);
+    filter:blur(2rem);
+    opacity: 1;
+    animation: reflection 1.5s ease-in  ;
+
+}
+
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 3rem;
+   text-align: center;
+   
+   
+}
+.list a{
+    color: white;
+    padding: 1rem 2rem;
+}
+/* neon light animation*/
+@keyframes shine{
+    0%{text-shadow: 0 0 0 white;color: black;}
+    50%{text-shadow:0 0 10px white, 0 0 20px white;}
+    100%{text-shadow:0 0 5px white, 0 0 10px white;color: white;}
+  
+}
+/* light reflection animation*/
+@keyframes reflection{
+    0%{opacity: 0;filter:blur(1rem);}
+    100%{opacity: 1;}
+    
+    
+}
+
+@media screen and (max-width:1024px) {
+    .home{
+        height: 100%;
+    }
+    .home h1{
+        font-size: 3rem;
+     }
+     .home h1,h2{
+        padding: 2rem;
+        
+    }
+}
+@media screen and (max-width:438px) {
+    .home{
+        height: 100%;
+    }
+    .home h1{
+       font-size: 2rem;
+       height: 100%;
+       margin: auto;
+       padding: 2rem 0;
+      
+    
+    }
+    .home h2{
+        margin: auto;
+        /* padding:  3rem; */
+    }
+
+  }
+  

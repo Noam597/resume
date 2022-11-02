@@ -1,0 +1,24 @@
+.portfolioPage {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.35s;
+}
+.homeLink {
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.homeLink:hover {
+  color: aqua;
+}
+.homeLink:active {
+  color: #af06af;
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 438px) {
+ 
+}

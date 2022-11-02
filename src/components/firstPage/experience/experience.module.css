@@ -1,0 +1,26 @@
+
+.experience{
+    color: white;
+}
+
+.experience h1{
+    text-shadow: 0 10px 5px darkblue;
+}
+.expContent{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .expContent{
+        grid-template-columns: 1fr  ;
+    }
+}
+@media screen and (max-width:438px) {
+    .expContent{
+        grid-template-columns: 1fr ;
+    }
+}

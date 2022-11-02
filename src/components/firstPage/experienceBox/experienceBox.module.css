@@ -1,0 +1,45 @@
+
+.box{
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+    color: white;
+    background-color: #5c5cd4;
+    transition: all .45s;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+.box:hover{
+    transform: scale(1);
+    background-color: #7e7edb;
+    text-shadow: 0 5px 5px darkblue;
+}
+.box h3{
+    font-size: 2em;
+    margin: 1rem;
+}
+.box h4{
+    margin: 1rem;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:438px) {
+    .box{
+        font-size: 0.85rem;
+        text-shadow: 0 5px 5px darkblue;
+    }
+    .box small{
+        font-size: 1em;
+    }
+}

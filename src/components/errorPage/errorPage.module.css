@@ -1,0 +1,63 @@
+.errorPage{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(black,black,blue);
+    background-size: 100% 100%;
+}
+
+.errorMessage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.light{
+    position: relative;
+    text-shadow:0 0 2px white, 0 0 7px white;
+    
+}
+.blink{
+    color: white;
+    animation: blink .6s ease-in infinite ;
+    text-shadow:0 0 2px white, 0 0 7px white
+}
+.r{
+    animation-delay: 1s;
+}
+@keyframes blink{
+    0%{text-shadow:0 0 2px white}
+    50%{color: black;text-shadow:none;}
+    55%{color: black;text-shadow: none;}
+    56%{text-shadow:0 0 2px white}
+    57%{color: black;text-shadow:none;}
+    70%{text-shadow:0 0 2px white}
+    75%{color: black;text-shadow:none;}
+    100%{text-shadow:0 0 2px white}
+    
+}
+@media screen and (max-width:1024px) {
+    .errorPage{
+       
+        height: 100vh;
+       
+    }
+    .errorMessage{
+      
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:438px) {
+    .errorPage{
+       
+        height: 100vh;
+       
+    }
+    .errorMessage{
+      
+        font-size: 1.5rem;
+    }
+}

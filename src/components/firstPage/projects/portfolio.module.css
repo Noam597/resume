@@ -1,0 +1,51 @@
+.portfolio{
+    padding: 2rem;
+}
+
+.portfolio h1{
+    color: white;
+    margin: 0;
+    transition: all 0.45s;
+}
+.p_btn{
+        color: white;
+        font-size: 1em;
+        padding: 1rem 2rem;
+        margin: .5rem;
+        margin-top: 3rem;
+        box-shadow: 0 0 5px #7dd4f0;
+        border: none;
+        border-radius: 12px;
+        transition: all .45s;
+        cursor: pointer;
+        background-color: transparent;
+       
+    
+}
+
+
+.p_btn:hover{
+    color: black;
+    background-color: #7dd4f0;
+    box-shadow:0 0 5px white, 0 0 10px #7dd4f0;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:1024px) {
+    /* .display{
+        flex-direction: column;
+    } */
+}
+@media screen and (max-width:438px) {
+    .portfolio h1{
+       font-size: 3rem;
+    }
+    .display{
+        flex-direction: column;
+    }
+  }
+  
