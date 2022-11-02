@@ -12,7 +12,7 @@ const Portfolio = () => {
       <button
         className={styles.p_btn}
         onClick={() => {
-          navigate("/portfolio");
+          navigate("resume/portfolio");
         }}
       >
         To View full Portfolio

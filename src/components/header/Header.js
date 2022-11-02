@@ -22,7 +22,7 @@ const Header = () => {
             src={profile}
             alt="profile"
             onClick={() => {
-              navigate("/");
+              navigate("/resume");
             }}
           />
         </div>
@@ -35,12 +35,12 @@ const Header = () => {
           }}
         >
           <li>
-            <NavLink style={styleLink} to="/" end>
+            <NavLink style={styleLink} to="/resume" end>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="portfolio" style={styleLink}>
+            <NavLink to="resume/portfolio" style={styleLink}>
               Portfolio
             </NavLink>
           </li>

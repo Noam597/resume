@@ -15,7 +15,7 @@ const PortfolioPage = () => {
       <h1>Portfolio Page</h1>
       <p
         className={styles.homeLink}
-        onClick={() => {navigate("/");}}>
+        onClick={() => {navigate("/resume");}}>
         <u>Back to home page</u>
       </p>
       <div className={styles.portfolioPage}>
