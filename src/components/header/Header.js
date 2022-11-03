@@ -3,6 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import styles from "./header.module.css";
 import profile from "../../assests/profile.jpeg";
 import { FaBars } from "react-icons/fa";
+import {AiFillGithub} from 'react-icons/ai';
 const Header = () => {
   const [menu, setMenu] = useState(false);
 
@@ -43,6 +44,11 @@ const Header = () => {
             <NavLink to="resume/portfolio" style={styleLink}>
               Portfolio
             </NavLink>
+          </li>
+          <li>
+            <a href="https://github.com/Noam597/resume" rel="noreferrer" target="_blank">
+             <AiFillGithub/>
+            </a>
           </li>
         </ul>
       </div>

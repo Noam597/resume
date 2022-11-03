@@ -2,6 +2,7 @@
 import styles from './footer.module.css';
 import {AiFillLinkedin,AiFillGithub} from 'react-icons/ai';
 import {FaFileDownload} from 'react-icons/fa';
+import CV from '../../../files/Noam_Harris_CV.pdf'
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
           <div className={styles.list}>
           <span><a href="https://linkedin.com/in/noam-harris" rel="noreferrer" target="_blank"><AiFillLinkedin/></a></span>
           <span><a href="https://github.com/Noam597" rel="noreferrer" target="_blank"><AiFillGithub/></a></span>
-          <span><a href="" rel="noreferrer" target="_blank"><FaFileDownload/></a></span>
+          <span><a href={CV} rel="noreferrer" target="_blank"><FaFileDownload/></a></span>
         </div>
     </div>
   )
