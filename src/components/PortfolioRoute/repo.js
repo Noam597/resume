@@ -81,4 +81,13 @@ export const repositories =[
         github:'https://github.com/Noam597/catchMeIfYouCan',
         
     },
+    {
+        id:10,
+        project:"To Do List ",
+        made:"React Typescript",
+        image:profile,
+        alt:"profile",
+        github:'https://github.com/Noam597/typscript-todolist',
+        
+    },
 ]
