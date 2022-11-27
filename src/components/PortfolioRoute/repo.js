@@ -30,6 +30,16 @@ export const repositories =[
         live:"https://noam597.github.io/stopwatch/"
     },
     {
+        id:10,
+        project:"To Do List ",
+        made:"React Typescript",
+        image:profile,
+        alt:"profile",
+        github:'https://github.com/Noam597/typscript-todolist',
+        live:"https://noam597.github.io/typscript-todolist/"
+        
+    },
+    {
         id:4,
         project:"Weather App",
         made:"React",
@@ -81,13 +91,5 @@ export const repositories =[
         github:'https://github.com/Noam597/catchMeIfYouCan',
         
     },
-    {
-        id:10,
-        project:"To Do List ",
-        made:"React Typescript",
-        image:profile,
-        alt:"profile",
-        github:'https://github.com/Noam597/typscript-todolist',
-        
-    },
+    
 ]
