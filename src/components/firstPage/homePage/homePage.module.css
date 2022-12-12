@@ -67,7 +67,7 @@ box-shadow: 0 0 10px white;
         margin:  0 2px;
     }
 }
-@media screen and (max-width:438px) {
+/* @media screen and (max-width:438px) {
     .menu{
         left: 0;
     }
@@ -77,4 +77,4 @@ box-shadow: 0 0 10px white;
     .menu li{
         margin:  0 2px;
     }
-}
+} */

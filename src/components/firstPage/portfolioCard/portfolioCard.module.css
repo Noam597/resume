@@ -70,10 +70,19 @@
 @media screen and (max-width:1024px) {
     .portfolioCard{
         margin: 2rem;
+        width: 250px;
+        /* height: 250px; */
     }
 }
 @media screen and (max-width:438px) {
     .portfolioCard{
-        margin: 1rem;
+        margin: .5rem;
+    }
+    .button{
+        font-size: 1em;
+        padding: 1rem 1rem;
+        margin: .5rem;
+        margin-top: 1.5rem;
+       
     }
 }

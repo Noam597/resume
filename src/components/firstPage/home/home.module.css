@@ -1,7 +1,7 @@
 .home{
     width: 100%;
     background-color: rgba(0, 0, 0, .4);
-    height: 100vh;
+    min-height: 100vh;
     
 }
 .title{
@@ -80,9 +80,7 @@
 }
 
 @media screen and (max-width:1024px) {
-    .home{
-        height: 100%;
-    }
+
     .home h1{
         font-size: 3rem;
      }
@@ -92,12 +90,9 @@
     }
 }
 @media screen and (max-width:438px) {
-    .home{
-        height: 100%;
-    }
+
     .home h1{
        font-size: 2rem;
-       height: 100%;
        margin: auto;
        padding: 2rem 0;
       
@@ -105,7 +100,6 @@
     }
     .home h2{
         margin: auto;
-        /* padding:  3rem; */
     }
 
   }

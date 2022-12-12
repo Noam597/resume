@@ -5,7 +5,7 @@ body{
 }
 section{
   color: white;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .App {
@@ -14,20 +14,9 @@ section{
   background-image: radial-gradient(black,black,blue,black,black);
   background-size: 200% 200%;
   object-fit: cover;
-  
   transition: all .45s;
 }
-@media screen and (max-width:1024px) {
-  section{
-    height: 100%;
-  }
-}
-@media screen and (max-width:438px) {
 
-  section{
-    height: 100%;
-  }
-}
 
 
 
