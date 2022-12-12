@@ -58,6 +58,7 @@
     padding: 1rem;
     margin: 1rem 1.5rem;
   }
+
 }
 @media screen and (max-width: 750px) {
   .header {
@@ -91,7 +92,8 @@
   }
   .menuBtn {
     display: block;
-    padding: 1rem;
+    padding:0 2rem;
+    
     font-size: 2rem;
     background-color: inherit;
     border: none;
@@ -123,10 +125,6 @@
     text-align: center;
   }
 
-  /* .navList li{
-       border-bottom: solid 0.5px white;
-   }
-    */
   .navList.menu > ul {
     transform: translateY(0);
   }
