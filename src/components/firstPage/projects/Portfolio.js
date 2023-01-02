@@ -1,13 +1,17 @@
-
+import { useRef,useEffect,useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useIntersectionObserver from "../../custom-hooks/useIntersectionObserver";
 import PortfolioCard from "../portfolioCard/PortfolioCard";
 import styles from "./portfolio.module.css";
 import { frontPage } from "./portfolioArray";
 const Portfolio = () => {
   const navigate = useNavigate();
 
+  
+    
+    const [show,observerRef] = useIntersectionObserver()
   return (
-    <section id="portfolio" className={styles.portfolio}>
+    <section ref={observerRef} id="portfolio" className={styles.portfolio}>
       <h1>Portfolio</h1>
       <button
         className={styles.p_btn}
@@ -22,6 +26,8 @@ const Portfolio = () => {
           return (
             <div key={id}>
               <PortfolioCard
+              
+                show={show}
                 title={project}
                 made={made}
                 image={image}

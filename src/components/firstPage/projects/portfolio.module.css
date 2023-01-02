@@ -1,5 +1,6 @@
 .portfolio{
-    padding: 2rem;
+    /* padding: 2rem; */
+   margin:auto;
 }
 
 .portfolio h1{
@@ -33,9 +34,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+  
+} 
 
-@media screen and (max-width:438px) {
+
+@media screen and (max-width:600px) {
+    /* .portfolio{
+        padding:1rem;
+       
+    } */
     .portfolio h1{
        font-size: 3rem;
     }

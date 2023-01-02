@@ -1,14 +1,16 @@
 
 .box{
+    
     font-size: 1.25rem;
     padding: 1rem;
-    margin: 1rem;
+    margin: 10px 10px;
     border-radius: 15px;
     color: white;
     background-color: #5c5cd4;
     transition: all .45s;
     box-sizing: border-box;
     cursor: pointer;
+    opacity: 0;
 
 }
 .box:hover{
@@ -24,19 +26,40 @@
     margin: 1rem;
     
 }
+.box.appear{
+    opacity: 1;
+}
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto  ;
+  
     padding: 1rem;
+    margin: 0 0 0 50px;
+    opacity: 0;
+    transition: all 1s;
 }
 
 
-@media screen and (max-width:438px) {
+.container.appear{
+    margin:0;
+    opacity: 1;
+  }
+  
+
+
+@media only screen and (max-width:600px) {
     .box{
-        font-size: 0.85rem;
+       
+        font-size: 1rem;
         text-shadow: 0 5px 5px darkblue;
+       
     }
     .box small{
         font-size: 1em;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto ;
+        padding:0;
     }
 }

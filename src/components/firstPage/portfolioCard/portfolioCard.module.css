@@ -1,10 +1,17 @@
 .portfolioCard{
-    width: 300px;
-    height: 350px;
+   min-width: 250px;
+    /* height: 350px; */
     border-radius: 15px;
     box-shadow: 0 0 20px #7dd4f0;
     background: linear-gradient(40deg,black,#7dd4f0,purple,#7dd4f0,black);
     margin: 2rem;
+    transition: all 1s;
+    transform: rotateY(80deg);
+    opacity: 0;
+}
+.portfolioCard.show{
+    transform: rotateY(0);
+    opacity: 1;
 }
 .portfolioCard h3{
     padding:1rem ;
@@ -70,19 +77,18 @@
 @media screen and (max-width:1024px) {
     .portfolioCard{
         margin: 2rem;
-        width: 250px;
-        /* height: 250px; */
+
     }
 }
-@media screen and (max-width:438px) {
+@media screen and (max-width:600px) {
     .portfolioCard{
         margin: .5rem;
     }
     .button{
         font-size: 1em;
         padding: 1rem 1rem;
-        margin: .5rem;
-        margin-top: 1.5rem;
+        margin: 1rem;
+        margin-top: 1rem;
        
     }
 }

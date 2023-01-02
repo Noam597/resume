@@ -3,6 +3,7 @@
   width: 90%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   transition: all 0.35s;
 }
 .homeLink {
@@ -19,6 +20,6 @@
 @media screen and (max-width: 1024px) {
 
 }
-@media screen and (max-width: 438px) {
+@media screen and (max-width: 600px) {
  
 }

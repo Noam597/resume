@@ -1,9 +1,9 @@
-
+import { forwardRef } from 'react';
 import styles from './portfolioCard.module.css'
 import {AiFillGithub} from 'react-icons/ai';
-const PortfolioCard = ({image,alt,title,made,github,live}) => {
+const PortfolioCard = ({image,alt,title,made,github,live,show},ref) => {
   return (
-    <div className={styles.portfolioCard}>
+    <div ref={ref} className={`${styles.portfolioCard} ` + (show?`${styles.show}`:``)}>
         <h3>{title}</h3>
         <p>Made with: {made}</p>
         <div className={styles.card}>
@@ -17,5 +17,5 @@ const PortfolioCard = ({image,alt,title,made,github,live}) => {
     </div>
   )
 }
-
-export default PortfolioCard
+const forwardCard = forwardRef(PortfolioCard)
+export default forwardCard

@@ -6,6 +6,7 @@ body{
 section{
   color: white;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .App {
@@ -15,6 +16,12 @@ section{
   background-size: 200% 200%;
   object-fit: cover;
   transition: all .45s;
+}
+
+@media screen and (max-width: 600px) {
+ section{
+ 
+ }
 }
 
 
