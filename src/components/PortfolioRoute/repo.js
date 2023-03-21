@@ -30,7 +30,7 @@ export const repositories =[
         live:"https://noam597.github.io/stopwatch/"
     },
     {
-        id:10,
+        id:4,
         project:"To Do List ",
         made:"React Typescript",
         image:profile,
@@ -40,7 +40,26 @@ export const repositories =[
         
     },
     {
-        id:4,
+        id:5,
+        project:"fullstack-memory-game ",
+        made:"React & Node.js MYSQL",
+        image:profile,
+        alt:"profile",
+        github:'https://github.com/Noam597/fullstack-memory-game.git',
+      
+        
+    },
+    {
+        id:6,
+        project:"To Do List ",
+        made:"React & Node.js",
+        image:profile,
+        alt:"profile",
+        github:'https://github.com/Noam597/simon-game.git',
+        
+    },
+    {
+        id:7,
         project:"Weather App",
         made:"React",
         image:profile,
@@ -48,7 +67,7 @@ export const repositories =[
         github:'https://github.com/Noam597/new-weather-app',
     },
     {
-        id:5,
+        id:8,
         project:"Photo Slider",
         made:"React",
         image:profile,
@@ -56,7 +75,7 @@ export const repositories =[
         github:'https://github.com/Noam597/photo-slide',
     },
     {
-        id:6,
+        id:9,
         project:"profile grid",
         made:"React/Mui",
         image:profile,
@@ -65,16 +84,16 @@ export const repositories =[
         
     },
     {
-        id:7,
+        id:10,
         project:"SQL-injection middleware",
-        made:"Node.js",
+        made:"Node.js-express",
         image:profile,
         alt:"profile",
-        github:'https://github.com/Noam597/SQL-injection-detector',
+        github:'https://github.com/Noam597/sql-injection-middleware.git',
         
     },
     {
-        id:8,
+        id:11,
         project:"MVC ",
         made:"JavaScript/jQuery",
         image:profile,
@@ -83,7 +102,7 @@ export const repositories =[
         
     },
     {
-        id:9,
+        id:12,
         project:"Catch Me (game) ",
         made:"JavaScript vanilla",
         image:profile,
