@@ -41,7 +41,7 @@ export const repositories =[
     },
     {
         id:5,
-        project:"fullstack-memory-game ",
+        project:"fullstack-memory-game",
         made:"React & Node.js MYSQL",
         image:profile,
         alt:"profile",
@@ -51,7 +51,7 @@ export const repositories =[
     },
     {
         id:6,
-        project:"To Do List ",
+        project:"fullstack-simon-game",
         made:"React & Node.js",
         image:profile,
         alt:"profile",
