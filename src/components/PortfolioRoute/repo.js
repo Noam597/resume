@@ -32,7 +32,7 @@ export const repositories =[
     {
         id:4,
         project:"To Do List ",
-        made:"React Typescript",
+        made:"React Typescript & Jest/RTL",
         image:profile,
         alt:"profile",
         github:'https://github.com/Noam597/typscript-todolist',

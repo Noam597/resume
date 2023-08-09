@@ -1,4 +1,4 @@
-import { useRef,useEffect,useState } from "react";
+
 import { useNavigate } from "react-router-dom";
 import useIntersectionObserver from "../../custom-hooks/useIntersectionObserver";
 import PortfolioCard from "../portfolioCard/PortfolioCard";
