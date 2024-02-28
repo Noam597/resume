@@ -2,7 +2,7 @@
 import styles from './footer.module.css';
 import {AiFillLinkedin,AiFillGithub} from 'react-icons/ai';
 import {FaFileDownload} from 'react-icons/fa';
-import CV from '../../../files/Noam_Harris_CV.pdf'
+import CV from '../../../files/Noam_Resume.pdf'
 
 const Footer = () => {
   return (
