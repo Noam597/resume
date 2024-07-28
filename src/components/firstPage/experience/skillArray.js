@@ -51,12 +51,23 @@ export const backEnd =[
     },
     {
         id:3,
-        subject:'MySQL',
+        subject:'Python',
         exp:'experienced'
     },
     {
         id:4,
+        subject:'MySQL',
+        exp:'experienced'
+    },
+    {
+        id:5,
         subject:'MongoDB',
+        exp:'intermediate'
+    },
+   
+    {
+        id:6,
+        subject:'Docker',
         exp:'intermediate'
     },
 ]
