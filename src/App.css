@@ -12,17 +12,13 @@ section{
 .App {
   text-align: center;
   width: 100%;
-  background-image: radial-gradient(black,black,blue,black,black);
+  background-image: radial-gradient(black,rgb(0, 0, 0),blue,black,black);
   background-size: 200% 200%;
   object-fit: cover;
   transition: all .45s;
 }
 
-@media screen and (max-width: 600px) {
- section{
- 
- }
-}
+
 
 
 

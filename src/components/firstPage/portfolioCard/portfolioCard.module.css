@@ -3,7 +3,7 @@
     /* height: 350px; */
     border-radius: 15px;
     box-shadow: 0 0 20px #7dd4f0;
-    background: linear-gradient(40deg,black,#7dd4f0,purple,#7dd4f0,black);
+    background: linear-gradient(40deg,black,#7dd4f0,rgb(234, 83, 234),#7dd4f0,black);
     margin: 2rem;
     transition: all 1s;
     transform: rotateY(80deg);
