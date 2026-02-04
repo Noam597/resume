@@ -2,7 +2,7 @@
 import styles from "./home.module.css";
 import {AiFillLinkedin,AiFillGithub} from 'react-icons/ai';
 import {FaFileDownload} from 'react-icons/fa';
-import CV from '../../../files/Fullstack_cv.pdf'
+import CV from '../../../files/Fullstack_cv1.pdf'
 const Home = () => {
   return (
     <section id="home" className={styles.home}>
