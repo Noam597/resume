@@ -13,6 +13,14 @@ export const frontPage = [
     },
     {
         id:2,
+        project:"FullStack Ecommerce",
+        made:"React + Nodejs + Docker",
+        image:profile,
+        alt:"profile",
+        github:"https://github.com/Noam597/fullstack-ecommerce-site",
+    },
+    {
+        id:3,
         project:"Ecommerce",
         made:"React",
         image:profile,
@@ -20,13 +28,5 @@ export const frontPage = [
         github:'https://github.com/Noam597/ecommerce-portoflio-front-end-',
         live:"https://noam597.github.io/ecommerce-portoflio-front-end-/"
     },
-    {
-        id:3,
-        project:"Stop Watch",
-        made:"React",
-        image:profile,
-        alt:"profile",
-        github:'https://github.com/Noam597/stopwatch',
-        live:"https://noam597.github.io/stopwatch/"
-    },
+    
 ]
